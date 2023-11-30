@@ -29,28 +29,33 @@ const projects = (await getCollection('work'))
 	<div class="stack gap-20 lg:gap-48">
 		<div class="wrapper stack gap-8 lg:gap-20">
 			<header class="hero">
+
 				<Hero
-					title="Hello, my name is Matt Bizley"
-					tagline="I am a Software Developer who is currently based in Cambridge, UK."
+					title="Hi, my name is Matt."
+					tagline="I am a Senior Software Developer based in Cambridge, UK."
 					align="start"
 				>
 					<div class="roles">
-						<Pill><Icon icon="code" size="1.33em" /> Developer</Pill>
-						<Pill><Icon icon="microphone-stage" size="1.33em" /> Speaker</Pill>
-						<Pill><Icon icon="pencil-line" size="1.33em" /> Writer</Pill>
+						<Pill><Icon icon="code" size="1.33em" />.NET Developer</Pill>
+						<Pill> Angular</Pill>
+						<Pill> AWS</Pill>
+						<Pill> Kubernetes</Pill>
+						<Pill> RabbitMQ</Pill>
+						<!-- <Pill> ElasticSearch</Pill> -->
+						<!-- <Pill> MongoDB</Pill> -->
 					</div>
 				</Hero>
-
 				<img
-					alt="Matt Bizley smiling in a red plaid shirt and tortoise shell glasses"
-					width="480"
-					height="620"
-					src="/assets/portrait.jpg"
+					alt="Matt smiling"
+					width="300"
+					src="/assets/emoji-blank.gif"
+
 				/>
 			</header>
 
 			<Skills />
 		</div>
+
 
 		<main class="wrapper stack gap-20 lg:gap-48">
 			<section class="section with-background with-cta">
@@ -60,7 +65,7 @@ const projects = (await getCollection('work'))
 				</header>
 
 				<div class="gallery">
-					<Grid variant="offset">
+					<Grid >
 						{
 							projects.map((project) => (
 								<li>
@@ -79,7 +84,7 @@ const projects = (await getCollection('work'))
 				</div>
 			</section>
 
-			<section class="section with-background bg-variant">
+			<!-- <section class="section with-background bg-variant">
 				<header class="section-header stack gap-2 lg:gap-4">
 					<h3>Mentions</h3>
 					<p>
@@ -99,10 +104,10 @@ const projects = (await getCollection('work'))
 						}
 					</Grid>
 				</div>
-			</section>
+			</section> -->
 		</main>
-
 		<ContactCTA />
+
 	</div>
 </BaseLayout>
 
