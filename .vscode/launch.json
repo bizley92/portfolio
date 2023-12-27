@@ -2,17 +2,27 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Launch Chrome",
+      "name": "Run npm run dev",
+      "type": "node",
       "request": "launch",
-      "type": "chrome",
-      "url": "http://localhost:3000",
-      "webRoot": "${workspaceFolder}"
+      "program": "${workspaceFolder}/node_modules/.bin/npm",
+      "args": [
+        "run",
+        "dev"
+      ]
     },
     {
-      "command": "./node_modules/.bin/astro dev",
-      "name": "Development server",
+      "name": "Launch Chrome",
+      "type": "chrome",
       "request": "launch",
-      "type": "node-terminal"
+      "url": "http://localhost:3000", // Replace with your app's URL
+      "webRoot": "${workspaceFolder}"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Run npm run dev and Launch Chrome",
+      "configurations": ["Run npm run dev", "Launch Chrome"]
     }
   ]
 }

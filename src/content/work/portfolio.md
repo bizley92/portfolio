@@ -1,22 +1,40 @@
 ---
 title: Astro Portfolio
-publishDate: 2019-10-02 00:00:00
+publishDate: 2023-11-01 00:00:00
 img: /assets/astro.webp
-img_alt: Soft pink and baby blue water ripples together in a subtle texture.
+img_alt: Astro web framework logo.
 description: |
-  We developed brand positioning and design assets for the launch
-  of a new colored water product.
+  This portfolio was created using an Astro web framework template then customized to become my personal portfolio website.
 tags:
-  - Design
-  - Branding
+  - Portfolio
+  - Hosting
+  - Astro
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur posuere commodo venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam non ligula vel metus efficitur hendrerit. In hac habitasse platea dictumst. Praesent et mauris ut mi dapibus semper. Curabitur tortor justo, efficitur sit amet pretium cursus, porta eget odio. Cras ac venenatis dolor. Donec laoreet posuere malesuada. Curabitur nec mi tempor, placerat leo sit amet, tincidunt est. Quisque pellentesque venenatis magna, eget tristique nibh pulvinar in. Vestibulum vitae volutpat arcu. Aenean ut malesuada odio, sit amet pellentesque odio. Suspendisse nunc elit, blandit nec hendrerit non, aliquet at magna. Donec id leo ut nulla sagittis sodales.
+> Are you eager to showcase your work with a sleek and lightning-fast portfolio? 
 
-Integer vitae nibh elit. Suspendisse eget urna eu neque bibendum pharetra. Sed interdum lectus sem, in pulvinar magna dignissim vel. Quisque maximus at urna nec laoreet. Suspendisse potenti. Vestibulum rhoncus sem ut mi pellentesque, in vestibulum erat blandit. Aliquam sodales dui ac maximus consectetur. Duis quis est vehicula, imperdiet nisl nec, fermentum erat. Duis tortor diam, pharetra eu euismod in, vehicula non eros. Curabitur facilisis dui at erat ultrices gravida. In at nunc ultricies, pulvinar mi vel, sagittis mauris. Praesent pharetra posuere purus ac imperdiet. Nulla facilisi.
+Look no further than [Astro web framwork](https://astro.build). In this guide, we'll walk you through creating a stunning portfolio site using Astro and hosting it on [GitHub Pages](https://pages.github.com), complete with a custom domain from Google Domains and the added security of Cloudflare's DNS and HTTPS.
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+### Why Astro Web Framework?
 
-Mauris sed eros in ex maximus volutpat. Suspendisse potenti. Donec lacinia justo consectetur sagittis tempor. Proin ullamcorper nisi vitae auctor rhoncus. Sed tristique aliquam augue. Pellentesque vitae fringilla ligula. Nulla arcu elit, efficitur eu nunc malesuada, eleifend tincidunt orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer mattis orci in bibendum ultricies. Quisque a dui erat. Phasellus et vulputate ipsum. Proin metus ex, lobortis nec ornare eget, bibendum ut sapien. Aliquam in dolor lobortis, aliquam tellus a, congue augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Astro offers a modern take on web development, combining the best of static site generation and dynamic frameworks. Its lightning speed and developer-friendly approach make it an ideal choice for crafting impressive portfolios that load in a blink.
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+### Getting Started
+
+Creating Your Portfolio Template: Start by designing your portfolio using Astro's components and layout options. Leverage its flexibility to personalize your showcase.
+GitHub Pages Setup: Deploy your Astro-built site to GitHub Pages, leveraging its free hosting and version control benefits.
+Custom Domain from Google Domains: Elevate your portfolio's professionalism with a custom domain. Purchase a domain from Google Domains and link it to your GitHub Pages site.
+Cloudflare for DNS and HTTPS: Enhance your site's security and performance by routing traffic through Cloudflare. Set up DNS records and enable HTTPS for that added layer of protection. Follow my [step by step guide](https://github.com/bizley92/custom-google-domain-github-pages-cloudflare-setup) for a more in-depth setup.
+### Publishing Your Portfolio
+
+Once everything is set up, publish your Astro-based portfolio to your custom domain. Showcasing your work has never been easier or more professional. Share your unique domain name with potential clients, employers, and collaborators, showcasing your expertise in style.
+
+### Conclusion
+
+Astro Web Framework empowers developers to create lightning-fast and visually captivating portfolios. Pairing it with GitHub Pages for hosting, a custom domain from Google Domains, and Cloudflare's security, your online presence will stand out in the crowded digital landscape.
+
+Ready to launch your digital portfolio into orbit? Follow this guide to elevate your web presence with Astro Web Framework and make a lasting impression!
+
+Happy coding and happy showcasing!
+
+Building a professional portfolio site using Astro Web Framework, GitHub Pages, a custom domain from Google Domains, and Cloudflare for security and performance optimization is an exciting journey. Launch your portfolio to new heights and let your work shine!

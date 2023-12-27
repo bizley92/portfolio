@@ -2,34 +2,45 @@
 title: Multiple Timers App (iOS)
 publishDate: 2020-03-02 00:00:00
 img: /assets/timers.jpg
-img_alt: Iridescent ripples of a bright blue and pink liquid
+img_alt: Multiple timers displayed on the front of an Apple iPhone
 description: |
-  We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
+  I created a way to extend Apple's inbuilt timer so you can kick-off multiple timers at once.
 tags:
-  - Design
+  - App
   - Dev
-  - User Testing
+  - SwiftUI
 ---
+> Are you tired of managing one timer at a time? 
 
-## Level-two heading
+Imagine having a sleek [iOS app](https://github.com/bizley92/Timers) that handles multiple timers simultaneously, helping you stay on track with various tasks. Join us on a coding adventure as we delve into creating an iOS app capable of managing multiple timers seamlessly.
 
-> Tell me and I forget. Teach me and I remember. Involve me and I learn.
+### The Vision
 
-Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+Our goal is to design an intuitive and efficient iOS app] using Swift that allows users to create, name, and run multiple timers concurrently. Whether it's timing workouts, managing cooking times in the kitchen, or organizing work intervals, this app aims to simplify time management.
 
-Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel quam elementum pulvinar etiam non.
+### Development Journey
 
-### Level-three heading
+Setting Up the Project
+We kick-started our journey by creating a new iOS project in Xcode, embracing the latest SwiftUI framework for its modern and user-friendly interface-building capabilities.
 
-Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl pretium fusce.
+Managing Multiple Timers
+Utilizing Swift's powerful capabilities, we implemented a flexible timer management system, enabling users to create, start, pause, and reset multiple timers at their convenience. Each timer features customizable names and durations.
 
-### Level-three heading
+Intuitive User Interface
+Designing a clean and intuitive user interface (UI) was paramount. We utilized SwiftUI's declarative syntax to craft a sleek UI, ensuring a seamless and engaging user experience.
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+Testing and Refinement
+Iterative testing played a crucial role in refining our app. We focused on ensuring smooth functionality, intuitive controls, and a visually appealing design to enhance user satisfaction.
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+Deployment
+After rigorous testing and refinements, we prepared our app for deployment, eager to share it with the iOS community.
 
-#### Level-four heading
+### Conclusion
 
-- We noted this
-- And also this other point
+Building a [multiple timers iOS app](https://github.com/bizley92/Timers) has been an exciting journey filled with learning and creativity. By leveraging Swift and SwiftUI, we've created a user-centric application that simplifies time management for various activities.
+
+Stay tuned as we prepare to launch this productivity-boosting app on the App Store. Harness the power of multiple timers and streamline your daily tasks with ease!
+
+Join us in the next chapter of our coding journey!
+
+Creating an iOS app for multiple timers was an exhilarating experience. Stay tuned for more updates as we prepare to launch this productivity-enhancing app!
