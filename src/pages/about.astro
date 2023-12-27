@@ -1,120 +1,230 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
 
-import ContactCTA from '../components/ContactCTA.astro';
-import Hero from '../components/Hero.astro';
+import ContactCTA from "../components/ContactCTA.astro";
+import Hero from "../components/Hero.astro";
 ---
 
-<BaseLayout title="About | Matt Bizley" description="About Matt Bizley Lorem Ipsum">
-	<div class="stack gap-20">
-		<main class="wrapper about">
-			<Hero
-				title="About"
-				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
-			>
-				<img
-					width="1553"
-					height="873"
-					src="/assets/work.webp"
-					alt="Matt Bizley at work with a colleague"
-				/>
-			</Hero>
+<BaseLayout
+  title="About | Matt Bizley"
+  description="About Matt Bizley Lorem Ipsum"
+>
+  <div class="stack gap-20">
+    <main class="wrapper about">
+      <Hero title="About">
+        <!-- <img
+					width="200"
+					height="200"
+					src="/assets/profile-head.png"
+					alt="Matt Bizley at work"
+				/> -->
+      </Hero>
 
-			<section>
-				<h2 class="section-title">Background</h2>
-				<div class="content">
-					<p>
-						Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy.
-						Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum
-						id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla
-						pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
-					</p>
-					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
-						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
-						quam elementum pulvinar etiam non.
-					</p>
-					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
-					</p>
-				</div>
-			</section>
-			<section>
-				<h2 class="section-title">Education</h2>
-				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
-				</div>
-			</section>
-			<section>
-				<h2 class="section-title">Skills</h2>
-				<div class="content">
-					<p>officia unde omnis</p>
-				</div>
-			</section>
-		</main>
+      <section>
+        <h2 class="section-title">Experience</h2>
+        <div class="content">
+          <div class="experience-card">
+            <div class="experience-header">
+              <h2 class="experience-title">
+                Senior Software Developer @ Axian Consulting, Cambs
+              </h2>
+              <h2 class="experience-subtitle">Dec 2023 - Present</h2>
+            </div>
+            <ul>
+              <li>Developed on a multilingual website builder</li>
+              <li>Styled components using Bootstrap</li>
+            </ul>
+          </div>
+          <div class="experience-card">
+            <div class="experience-header">
+              <h2 class="experience-title">
+                Software Developer @ Blackdot Solutions Ltd, Cambs
+              </h2>
+              <h2 class="experience-subtitle">Jan 2017 - Jan 2023</h2>
+            </div>
+            <ul>
+              <li>
+                Primarily developed on a C# WPF Windows desktop investigations
+                app using MVVM architecture to design custom controls in XAML as
+                part of a Microservices solution
+              </li>
+              <li>
+                Managed a team to architect and release a Risk Search RESTful
+                API using MVC, responsible for discussions and refining project
+                requirements with both our team and a third-party, resulting in
+                well-defined project milestones and smoother release cycles
+              </li>
+              <li>
+                Setup a scalable AWS Appstream cloud environment to host
+                instances of the WPF client orchestrated by GitHub Actions to
+                handle image generation and stack
+              </li>
+              <li>
+                Created an Angular map application that dynamically loaded map
+                tiles from a variety of data providers with an overlay to plot
+                and visually represent entity and relationship metadata
+              </li>
+              <li>
+                Hands-on experience operating CI/CD pipelines using Jenkins and
+                GitHub Actions to automate builds, testing and deployment
+              </li>
+              <li>
+                Composed an Angular multi-user collaborative text editor to
+                document and share investigatory findings, designing components
+                with rich-text functionality and the ability to export to PDF,
+                DOCX
+              </li>
+              <li>
+                Developed patches in response to bi-annual pen testing of apps
+                to conform with OWASP guidelines
+              </li>
+              <li>
+                Presented quarterly to the company communicating team
+                developments and demonstrating product enhancements completed
+                during the sprint cycle
+              </li>
+            </ul>
+          </div>
+          <div class="experience-card">
+            <div class="experience-header">
+              <h2 class="experience-title">
+                Junior Developer @ Blackdot Solutions Ltd, Cambs
+              </h2>
+              <h2 class="experience-subtitle">Aug 2016 - Jan 2017</h2>
+            </div>
+            <ul>
+              <li>Integrated 3rd party data providers</li>
+              <li>Collaborated in Agile teams, using Scrum/Kanban</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2 class="section-title">Education</h2>
+        <div class="content">
+          <div class="experience-header">
+            <h2 class="experience-title">
+              BEng Software Engineering (2:1) @ Sheffield Hallam University
+            </h2>
+            <h2 class="experience-subtitle">Sep 2012 - June 2016</h2>
+          </div>
+          <ul>
+            <li>
+              Produced a drone-mounted facial-recognition Python project using
+              machine learning and OpenCV with the view of reducing response
+              times in search and rescue missions
+            </li>
+            <li>Created a VR game using Unity and C++</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2 class="section-title">Languages</h2>
+        <div class="content">
+          <p>
+            C#, Typescript, Javascript, SQL, HTML, CSS (SASS), XAML, XML,
+            Powershell, SQL.
+          </p>
+        </div>
+      </section>
+      <section>
+        <h2 class="section-title">Tools</h2>
+        <div class="content">
+          <p>
+            .NET Core, ASP.NET, WPF, Angular, Bootstrap, Kubernetes, AWS,
+            Docker, Entity Framework, ElasticSearch, SQL Server, MongoDB, Redis,
+            RabbitMQ, NUnit, Moq, Github Actions, Jenkins, Hyper-V, Active
+            Directory, Jira, PostgreSQL, OAuth, Identity server, JWT, Gitlab,
+            Linux, SOLID principles, TDD
+          </p>
+        </div>
+      </section>
+      <section>
+        <h2 class="section-title">Interests</h2>
+        <div class="content">
+          <p>Football, Running, Golf, Gaming, Social events</p>
+        </div>
+      </section>
+    </main>
+  </div>
 
-		<ContactCTA />
-	</div>
+  <ContactCTA />
 </BaseLayout>
 
 <style>
-	.about {
-		display: flex;
-		flex-direction: column;
-		gap: 3.5rem;
-	}
+  .about {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+  }
 
-	img {
-		margin-top: 1.5rem;
-		border-radius: 1.5rem;
-		box-shadow: var(--shadow-md);
-	}
+  img {
+    margin-top: 1.5rem;
+    border-radius: 1.5rem;
+    box-shadow: var(--shadow-md);
+  }
 
-	section {
-		display: flex;
-		flex-direction: column;
-		gap: 0.5rem;
-		color: var(--gray-200);
-	}
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: var(--gray-200);
+  }
 
-	.section-title {
-		grid-column-start: 1;
-		font-size: var(--text-xl);
-		color: var(--gray-0);
-	}
+  .section-title {
+    grid-column-start: 1;
+    font-size: var(--text-xl);
+    color: var(--gray-0);
+  }
 
-	.content {
-		grid-column: 2 / 4;
-	}
+  .experience-card {
+    margin-bottom: 2rem;
+  }
 
-	.content :global(a) {
-		text-decoration: 1px solid underline transparent;
-		text-underline-offset: 0.25em;
-		transition: text-decoration-color var(--theme-transition);
-	}
+  .experience-title {
+    font-size: var(--text-xl);
+    color: var(--gray-0);
+    margin: 0.5rem 0;
+  }
 
-	.content :global(a:hover),
-	.content :global(a:focus) {
-		text-decoration-color: currentColor;
-	}
+  .experience-subtitle {
+    font-size: var(--text-lg);
+    color: var(--gray-0);
+    margin: 0.5rem 0;
+  }
 
-	@media (min-width: 50em) {
-		.about {
-			display: grid;
-			grid-template-columns: 1fr 60% 1fr;
-		}
+  .experience-header {
+    margin-bottom: 1rem;
+  }
 
-		.about > :global(:first-child) {
-			grid-column-start: 2;
-		}
+  .content {
+    grid-column: 2 / 4;
+  }
 
-		section {
-			display: contents;
-			font-size: var(--text-lg);
-		}
-	}
+  .content :global(a) {
+    text-decoration: 1px solid underline transparent;
+    text-underline-offset: 0.25em;
+    transition: text-decoration-color var(--theme-transition);
+  }
+
+  .content :global(a:hover),
+  .content :global(a:focus) {
+    text-decoration-color: currentColor;
+  }
+
+  @media (min-width: 50em) {
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 60% 1fr;
+    }
+
+    .about > :global(:first-child) {
+      grid-column-start: 2;
+    }
+
+    section {
+      display: contents;
+      font-size: var(--text-lg);
+    }
+  }
 </style>
