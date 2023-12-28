@@ -1,5 +1,5 @@
 ---
-title: HaveIGotMyLuggage.com
+title: Have I Got My Luggage
 publishDate: 2019-12-01 00:00:00
 img: /assets/luggage.webp
 img_alt: A collection of colourful luggage
